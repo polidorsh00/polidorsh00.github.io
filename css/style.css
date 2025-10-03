@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+}
+
+/* Header */
+header {
+  background-color: #5a0f1f; /* Bordeaux */
+  padding: 2rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #fff;
+}
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+  color: #d1d1d1;
+}
+
+/* Main content */
+main {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+h2 {
+  color: #b4374a;
+}
+
+/* Links and lists */
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  margin: 1rem 0;
+}
+a {
+  display: block;
+  padding: 1rem;
+  background-color: #333;
+  border-left: 6px solid #b4374a;
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: bold;
+  transition: 0.3s;
+  border-radius: 6px;
+}
+a:hover {
+  background-color: #5a0f1f;
+  color: #fff;
+}
+
+/* Homework answer box */
+.answer {
+  background-color: #2a2a2a;
+  padding: 1.5rem;
+  border-left: 6px solid #b4374a;
+  border-radius: 6px;
+}
+
+/* Back button */
+a.back {
+  display: inline-block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #b4374a;
+  font-weight: bold;
+  transition: 0.3s;
+}
+a.back:hover {
+  color: #fff;
+}
